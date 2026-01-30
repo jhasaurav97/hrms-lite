@@ -7,14 +7,14 @@ The focus of this project is on **core functionality, stability, and production 
 
 ---
 
-## 🚀 Live Application
+##  Live Application
 
 - **Frontend URL:** https://hrms-lite-eight-psi.vercel.app/
 - **Backend API URL:** https://hrms-backend-e9wt.onrender.com/
 
 ---
 
-## 📌 Features
+##  Features
 
 ### Employee Management
 - Add a new employee with:
@@ -44,7 +44,7 @@ The focus of this project is on **core functionality, stability, and production 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -68,7 +68,7 @@ The focus of this project is on **core functionality, stability, and production 
 
 ---
 
-## ▶️ Running the Project Locally
+##  Running the Project Locally
 
 ### Backend Setup
 
