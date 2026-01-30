@@ -1,0 +1,12 @@
+# Backend
+hrms-backend/venv/
+hrms-backend/.env
+__pycache__/
+*.pyc
+
+# Frontend
+hrms-frontend/node_modules/
+hrms-frontend/.env
+
+# OS
+.DS_Store
