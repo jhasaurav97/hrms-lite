@@ -9,8 +9,8 @@ The focus of this project is on **core functionality, stability, and production 
 
 ## 🚀 Live Application
 
-- **Frontend URL:** <ADD_VERCEL_FRONTEND_URL_HERE>
-- **Backend API URL:** <ADD_RENDER_BACKEND_URL_HERE>
+- **Frontend URL:** https://hrms-lite-eight-psi.vercel.app/
+- **Backend API URL:** https://hrms-backend-e9wt.onrender.com/
 
 ---
 
@@ -65,25 +65,6 @@ The focus of this project is on **core functionality, stability, and production 
 - **Frontend:** Vercel
 - **Backend:** Render
 
----
-
-## ⚙️ Project Structure
-
-hrms-lite/
-├── hrms-backend/
-│ ├── app/
-│ │ ├── routes/
-│ │ ├── schemas.py
-│ │ ├── models.py
-│ │ └── main.py
-│ ├── requirements.txt
-│ └── .env (not committed)
-├── hrms-frontend/
-│ ├── src/
-│ ├── components/
-│ ├── pages/
-│ └── services/
-└── README.md
 
 ---
 
@@ -136,56 +117,39 @@ VITE_API_BASE_URL=http://127.0.0.1:8000
 
 ## Environment Variables
 
-Backend (Render)
-MONGO_URI
-DB_NAME
+- Backend (Render)
+- MONGO_URI
+- DB_NAME
 
-Frontend (Vercel)
+### Frontend (Vercel)
 
-VITE_API_BASE_URL
+- VITE_API_BASE_URL
+- Environment variables are managed securely and are not committed to version control.
 
-Environment variables are managed securely and are not committed to version control.
+## Validations & Error Handling
 
-✅ Validations & Error Handling
+- Required field validation
+- Email format validation
+- Duplicate employee ID prevention
+- Duplicate attendance prevention (employee + date)
 
-Required field validation
+### Proper HTTP status codes:
 
-Email format validation
+- 201 Created
+- 404 Not Found
+- 409 Conflict
+- Meaningful error messages displayed in UI
 
-Duplicate employee ID prevention
+## Assumptions & Limitations
 
-Duplicate attendance prevention (employee + date)
+- Single admin user (no authentication)
+- Leave management, payroll, and advanced HR features are out of scope
+- Designed as a lightweight internal tool
+- CORS is configured openly for assessment purposes
 
-Proper HTTP status codes:
+---
 
-201 Created
+## Final Note
 
-404 Not Found
-
-409 Conflict
-
-Meaningful error messages displayed in UI
-
-📎 Assumptions & Limitations
-
-Single admin user (no authentication)
-
-Leave management, payroll, and advanced HR features are out of scope
-
-Designed as a lightweight internal tool
-
-CORS is configured openly for assessment purposes
-
-⭐ Bonus (Optional)
-
-Clean separation of frontend and backend
-
-Production-ready deployment
-
-Modular and readable code structure
-
-📝 Final Note
-
-This project was built with a focus on realistic usability, clean architecture, and production readiness, following the assignment scope and time constraints.
-
-Thank you for reviewing this submission 🚀
+- This project was built with a focus on realistic usability, clean architecture, and production readiness, following the assignment scope and time constraints.
+- Thank you for reviewing this submission 
